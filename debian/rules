@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	install -D -m755 target/release/edit debian/msedit/usr/bin/msedit
+
+# Install desktop file
+	install -D -m644 msedit.desktop debian/msedit/usr/share/applications/msedit.desktop
+
+# Install icon
+	install -D -m644 assets/edit.svg debian/msedit/usr/share/icons/hicolor/scalable/apps/msedit.svg

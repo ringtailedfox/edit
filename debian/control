@@ -1,0 +1,14 @@
+Source: msedit
+Section: editors
+Priority: optional
+Maintainer: RingtailedFox <slycooper1986@yahoo.ca>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (=13)
+
+Package: msedit
+Architecture: any
+Depends: libc6 (>= 2.31), libicu76 | libicu74
+Description:  We all edit. Community build/fork of Microsoft Edit (v2.0.0) — a modern terminal editor.
+ A lightweight, fast, MS-DOS EDIT-inspired text editor written in Rust.
+ Includes syntax highlighting, search, menus, and a classic UI.
+ This package installs the unofficial ARM64 Linux community build.  Not affiliated with or endorsed by Microsoft.
