@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Microsoft Edit
+Exec=/usr/bin/msedit %U
+Icon=/usr/share/icons/hicolor/scalable/apps/msedit.svg
+Type=Application
+Categories=Utility;TextEditor;
+MimeType=text/plain;
+Terminal=true
