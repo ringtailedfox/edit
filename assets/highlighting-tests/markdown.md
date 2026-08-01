@@ -80,17 +80,13 @@ export function greet(name) {
 }
 ```
 
-```lua
-local function greet(name)
-    return "hello " .. name
-end
-```
-
-```luau
-export type Greeting = (name: string) -> string
-```
-
 ```python
 def greet(name: str) -> str:
     return f"hello {name}"
+```
+
+```odin
+greet :: proc(name: string) -> string {
+    return fmt.tprintf("hello %s", name)
+}
 ```
